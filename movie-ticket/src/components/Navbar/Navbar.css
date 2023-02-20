@@ -1,0 +1,21 @@
+
+.navbar-holder {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin: 10px 0 10px 0;
+}
+
+.navbar-item {
+    padding:0 10px 0 20px;
+    margin-right: 40px;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color:var(--tertiary-color);
+    /* font-weight: 600; */
+    text-transform: uppercase;
+}

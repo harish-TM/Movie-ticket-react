@@ -3,11 +3,12 @@ import { useState, useEffect } from 'react';
 import React from 'react';
 import axios from 'axios';
 import ShowTheatre from '../ShowTheatre/ShowTheatre';
+import ShowMovies from '../ShowMovies/ShowMovies';
+import Navbar from '../Navbar/Navbar'
 function Home() {
 
     const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
-
     useEffect(() => {
         axios.post('https://zincubate.in/api/MovieTicketChecker?action=getAllDetails', {
             "user_mail_id": "test@gmail.com"
@@ -25,7 +26,8 @@ function Home() {
 
     return (
         <div className="Home">
-            Test booking Website !
+            <Navbar/>
+            {isLoading && <ShowMovies data={data.movies} />}
             {isLoading && <ShowTheatre data={data} />}
         </div>
     );

@@ -1,7 +1,21 @@
 # Movie-ticket-react
 React app to make Movie ticket booking.
-#Installation
-use npm i followed by npm start.
+# Installation
+checkout the code and install dependencies using the following command
+```bash
+  npm i
+```
+#Development environment
+Launch the Development environemnt using this command
+```bash
+  npm run start
+```
 ## 🔗 Links
 This code is also hosted in
-[![live sercer](https://movie-ticket-booking-1.netlify.app/)
+![live server](https://movie-ticket-booking-1.netlify.app/)
+
+## Future Scope
+
+- Handle already booked scenario
+- Feature to change email (currently hardcoded)
+- improvise design for mobile

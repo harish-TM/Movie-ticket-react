@@ -12,7 +12,8 @@ Launch the Development environemnt using this command
 ```
 ## 🔗 Links
 This code is also hosted in
-![live server](https://movie-ticket-booking-1.netlify.app/)
+[netlify server]([https://www.google.com](https://movie-ticket-booking-1.netlify.app/))
+
 
 ## Future Scope
 
